@@ -133,4 +133,6 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 )
 
+replace github.com/openshift/api => github.com/mtulio/api v0.0.0-20230630145723-18d636baa7c3
+
 replace vbom.ml/util => github.com/fvbommel/util v0.0.0-20180919145318-efcd4e0f9787
